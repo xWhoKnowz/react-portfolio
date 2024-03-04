@@ -1,10 +1,17 @@
-import HelloReact from './components/HelloReact';
+import { Outlet } from "react-router-dom";
+import Header from "./components/header";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 
-// TODO: Add a comment explaining what this function is doing
-// This function is a functional component that helps us split the UI into distinct parts.
-// In this case, we are returning another component, <HelloReact/> from it.
 function App() {
-  return <HelloReact />;
+  return (
+    <>
+      <Header />
+      <Nav />
+      <Footer />
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
