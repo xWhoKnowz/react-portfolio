@@ -1,15 +1,35 @@
+body {
+    background-color: var(--primary);
+}
+
 h1 {
-    color: #EDF763;
+    color: var(--secondary);
     font-size: 70px;
     font-weight: 1000;
     position: absolute;
-    Top: 100px;
-    Left: 30px;
+    top: 100px;
+    left: 30px;
     
+}
+
+:root {
+    --primary: #D7F7B5;
+    --secondary: #EDF763;
 }
 
 .headerImage {
     height: 25vh;
     width: 100vw;
     object-fit: cover;
+}
+
+.nav {
+    color: var(--secondary);
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
