@@ -57,7 +57,9 @@ h1 {
     font-weight: 100px;
     margin-top: 20px;
 }
-
+.contact {
+    width: 500px;
+}
 .hero {
     height: 100px;
     margin-top: 20px;
