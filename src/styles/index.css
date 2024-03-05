@@ -1,0 +1,15 @@
+h1 {
+    color: #EDF763;
+    font-size: 70px;
+    font-weight: 1000;
+    position: absolute;
+    Top: 100px;
+    Left: 30px;
+    
+}
+
+.headerImage {
+    height: 25vh;
+    width: 100vw;
+    object-fit: cover;
+}
