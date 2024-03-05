@@ -15,6 +15,7 @@ h1 {
 :root {
     --primary: #D7F7B5;
     --secondary: #EDF763;
+    --tertiary: #4A8A07;
 }
 
 .headerImage {
@@ -33,7 +34,7 @@ h1 {
 
 .navBar {
     position: absolute;
-    top: 149px;
+    top: 145px;
     right: 5px;
     width: 100vw;
     display: flex;
@@ -44,6 +45,24 @@ h1 {
 .navBtn {
     color: var(--secondary);
     margin: 5px;
+}
+
+.aboutMe {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.about {
+    color: var(--tertiary);
+    font-weight: 100px;
+    margin-top: 20px;
+}
+
+.hero {
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 828px) {
