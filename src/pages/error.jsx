@@ -1,6 +1,10 @@
+import error from '../../assets/error.jpg'
+
 export default function Error() {
     
     return (
-        <section></section>
+        <main>
+            <img className='errorPage' src={error}/>
+        </main>
     )
 }

@@ -16,6 +16,7 @@ h1 {
     --primary: #D7F7B5;
     --secondary: #EDF763;
     --tertiary: #4A8A07;
+    --error: #F77660;
 }
 
 .headerImage {
@@ -54,7 +55,7 @@ h1 {
 
 .about {
     color: var(--tertiary);
-    font-weight: 100px;
+    font-weight: bolder;
     margin-top: 20px;
 }
 
@@ -77,7 +78,7 @@ h1 {
 
 .projectCard:hover .projectTitle{
     display: block;
-    text-shadow: var(--primary) 2px 2px;
+    text-shadow: var(--secondary) 0px 0px 10px;
 
 }
 
@@ -105,7 +106,63 @@ h1 {
 
 .contact {
     width: 500px;
+    margin-top: 30px;
+    margin-left: 240px;
 }
+
+.form-label {
+    color: var(--tertiary);
+    font-weight: bolder;
+}
+
+.btn {
+    color: var(--secondary);
+    border-color: var(--tertiary);
+    background-color: var(--tertiary);
+    margin-top: 5px;
+}
+
+.btn:hover {
+    color: var(--tertiary);
+    border-color: var(--tertiary);
+    background-color: var(--secondary);
+    margin-top: 5px;
+}
+
+.error {
+    color: var(--error);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.resume {
+
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+.link {
+    color: var(--tertiary);
+    text-decoration: underline;
+    text-decoration-color:var(--tertiary) ;
+    margin-bottom: 30px;
+}
+
+.prof {
+    color: var(--tertiary);
+    font-weight: bolder;
+}
+
+.list {
+    color: var(--tertiary);
+    font-weight: bolder;
+}
+
+.errorPage {
+    height: 100vh;
+    width: 100vw;
+}
+
 .hero {
     height: 100px;
     margin-top: 20px;
@@ -130,5 +187,25 @@ h1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .projectCard{
+        width: 404.5px;
+        height: 405px;
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border: solid var(--tertiary) 3px;
+        background-color: var(--tertiary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
     }
 }
