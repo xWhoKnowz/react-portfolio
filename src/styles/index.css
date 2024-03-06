@@ -57,6 +57,52 @@ h1 {
     font-weight: 100px;
     margin-top: 20px;
 }
+
+.projectCard{
+    width: 504.5px;
+    height: 405px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid var(--tertiary) 3px;
+    background-color: var(--tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCard:hover {
+    background-color: white;
+}
+
+.projectCard:hover .projectTitle{
+    display: block;
+    text-shadow: var(--primary) 2px 2px;
+
+}
+
+.projectTitle {
+    color: var(--tertiary);
+    display: none;
+    position: absolute;
+    font-size: 40px;
+}
+
+.projectTitle:hover{
+    display: block;
+}
+
+.project {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.project:hover {
+    object-fit: cover;
+    opacity: 20%;
+}
+
 .contact {
     width: 500px;
 }
