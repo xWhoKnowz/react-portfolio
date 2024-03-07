@@ -227,11 +227,10 @@ h1 {
         margin-left: 30px;
     }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 555px) {
     h1 {
         font-size: 40px;
     }
-
     .projectCard{
         width: 404.5px;
         height: 405px;
@@ -248,5 +247,8 @@ h1 {
         width: 400px;
         height: 400px;
         object-fit: cover;
+    }
+    .contact {
+        width:350px;
     }
 }
