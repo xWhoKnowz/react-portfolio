@@ -45,6 +45,7 @@ h1 {
 
 .navBtn {
     color: var(--secondary);
+    font-weight: bolder;
     margin: 5px;
 }
 
@@ -216,6 +217,10 @@ h1 {
 }
 
 @media screen and (max-width: 530px) {
+    h1 {
+        font-size: 40px;
+    }
+
     .projectCard{
         width: 404.5px;
         height: 405px;
