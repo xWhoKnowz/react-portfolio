@@ -213,6 +213,13 @@ h1 {
         flex-direction: row;
         justify-content: center;
     }
+    .projectCard{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .github{
+        margin-top: 20px;
+    }
     .contact {
         margin-left: 30px;
     }
