@@ -158,6 +158,16 @@ h1 {
     font-weight: bolder;
 }
 
+.linkLogo {
+    width: auto;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.linkedin {
+    margin-left:25px;
+}
+
 .errorPage {
     height: 100vh;
     width: 100vw;
