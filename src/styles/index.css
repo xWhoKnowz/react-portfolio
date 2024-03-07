@@ -21,7 +21,7 @@ h1 {
 
 .headerImage {
     height: 195px;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
 }
 
