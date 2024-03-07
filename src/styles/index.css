@@ -200,7 +200,7 @@ h1 {
         font-size: 60px;
     }
     .headerImage{
-        height: 300px;
+        height: 500px;
     }
     .nav{
         display: flex;
@@ -208,7 +208,7 @@ h1 {
     }
     .navBar {
         position: absolute;
-        top: 200px;
+        top: 400px;
         display: flex;
         flex-direction: row;
         justify-content: center;
