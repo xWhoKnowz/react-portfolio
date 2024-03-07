@@ -216,6 +216,9 @@ h1 {
     .contact {
         margin-left: 30px;
     }
+    .resume{
+        margin-left: 30px;
+    }
 }
 @media screen and (max-width: 530px) {
     h1 {
