@@ -1,5 +1,7 @@
 body {
     background-color: var(--primary);
+    font-family: "Architects Daughter", cursive;
+    font-style: normal;
 }
 
 h1 {
@@ -16,6 +18,7 @@ h1 {
     --primary: #D7F7B5;
     --secondary: #EDF763;
     --tertiary: #4A8A07;
+    --text: #8B6C3C;
     --error: #F77660;
 }
 
@@ -58,6 +61,12 @@ h1 {
     color: var(--tertiary);
     font-weight: bolder;
     margin-top: 20px;
+}
+
+.myself {
+    color: var(--text);
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .projectCard{
@@ -161,7 +170,7 @@ h1 {
 }
 
 .list {
-    color: var(--tertiary);
+    color: var(--text);
     font-weight: bolder;
 }
 

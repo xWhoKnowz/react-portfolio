@@ -6,7 +6,7 @@ export default function About() {
         <main className="aboutMe">
             <h2 className="about">About Me</h2>
             <img className="hero" src={hero}/>
-            <p>
+            <p className='myself'>
                 When all the worst we fear lets fall its weight
                 When St. Peter loses cool and bars the gates
                 When the gyre widens on and when the wave breaks
