@@ -252,6 +252,9 @@ h1 {
         justify-content: center;
         align-items: center;
     }
+    .projectTitle{
+        font-size: 25px;
+    }
     .project {
         width: 400px;
         height: 400px;
