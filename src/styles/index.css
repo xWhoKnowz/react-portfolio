@@ -252,3 +252,23 @@ h1 {
         width:350px;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .projectCard{
+        width: 304.5px;
+        height: 405px;
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border: solid var(--tertiary) 3px;
+        background-color: var(--tertiary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
