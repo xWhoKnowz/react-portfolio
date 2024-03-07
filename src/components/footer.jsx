@@ -6,7 +6,7 @@ import formerlyTwitter from '../../Assets/x.png'
 export default function Footer() {
     
     return (
-        <footer className='d-flex justify-content-center'>
+        <footer className='footer d-flex justify-content-center'>
             <a href='https://github.com/xWhoKnowz'>
             <img className='linkLogo' src={github}/>
             </a>
