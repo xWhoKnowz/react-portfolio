@@ -100,7 +100,6 @@ h1 {
     height: auto;
     margin-left: 5px;
 }
-
 .project {
     width: 500px;
     height: 400px;
@@ -214,8 +213,10 @@ h1 {
         flex-direction: row;
         justify-content: center;
     }
+    .contact {
+        margin-left: 30px;
+    }
 }
-
 @media screen and (max-width: 530px) {
     h1 {
         font-size: 40px;
