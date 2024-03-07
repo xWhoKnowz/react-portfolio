@@ -1,4 +1,4 @@
-import headerBackground from '../../assets/headerBackground.jpg';
+import headerBackground from '../../Assets/headerBackground.jpg';
 import Nav from './nav';
 
 export default function Header() {

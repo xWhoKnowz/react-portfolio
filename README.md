@@ -60,4 +60,4 @@ Email: TBD
 
 ## Webpage Screenshot
     
-![Screenshot of the website homepage. Dislpays the hero image and the about me info for the site creator.](./assets/siteScreenshot.png)
+![Screenshot of the website homepage. Dislpays the hero image and the about me info for the site creator.](./Assets/siteScreenshot.png)

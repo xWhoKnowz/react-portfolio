@@ -1,4 +1,4 @@
-import error from '../../assets/error.jpg'
+import error from '../../Assets/error.jpg'
 
 export default function Error() {
     

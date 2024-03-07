@@ -1,4 +1,4 @@
-import github from '../../assets/github.png'
+import github from '../../Assets/github.png'
 
 export default function Project(props) {
   console.log(props);

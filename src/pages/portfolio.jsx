@@ -1,10 +1,10 @@
 import Project from "../components/project"
-import myQueue from "../../assets/myQueue.jpg"
-import freshTomatoes from "../../assets/freshTomatoes.jpg"
-import jate from "../../assets/jate.jpg"
-import weatherDashboard from "../../assets/weatherDashboard.jpg"
-import noteTaker from "../../assets/noteTaker.jpg"
-import workDayPlanner from "../../assets/workDayPlanner.jpg"
+import myQueue from "../../Assets/myQueue.jpg"
+import freshTomatoes from "../../Assets/freshTomatoes.jpg"
+import jate from "../../Assets/jate.jpg"
+import weatherDashboard from "../../Assets/weatherDashboard.jpg"
+import noteTaker from "../../Assets/noteTaker.jpg"
+import workDayPlanner from "../../Assets/workDayPlanner.jpg"
 
 const projects = [
     {

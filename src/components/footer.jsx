@@ -1,6 +1,6 @@
-import github from '../../assets/github.png'
-import linkedin from '../../assets/linkedin.png'
-import formerlyTwitter from '../../assets/x.png'
+import github from '../../Assets/github.png'
+import linkedin from '../../Assets/linkedin.png'
+import formerlyTwitter from '../../Assets/x.png'
 
 
 export default function Footer() {
